@@ -28,10 +28,12 @@
     
 
   </build>
-  <dependency>
-    <groupId>javax.servlet</groupId>
-    <artifactId>servlet-api</artifactId>
-    <version>?</version>
-    <scope>provided</scope>
-</dependency>
+  <dependencies>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>?</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
 </project>
