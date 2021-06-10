@@ -25,12 +25,13 @@
         </configuration>
       </plugin>
     </plugins>
-    <dependency>
+    
+
+  </build>
+  <dependency>
     <groupId>javax.servlet</groupId>
     <artifactId>servlet-api</artifactId>
     <version>?</version>
     <scope>provided</scope>
 </dependency>
-
-  </build>
 </project>
