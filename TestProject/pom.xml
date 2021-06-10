@@ -8,11 +8,6 @@
   <description>Azure Deployment</description>
   <build>
     <sourceDirectory>src</sourceDirectory>
-    <resources>
-      <resource>
-        <targetPath>${{ github.workspace }}/target/</targetPath>
-      </resource>
-    </resources>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
