@@ -32,5 +32,5 @@ jobs:
         app-name: testservlet1
         slot-name: Production
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D025983467FC405E81FA08CCF50931FC }}
-        package: TestProject/target/*.jar
+        package: TestProject/target/*.war
 
